@@ -1,29 +1,43 @@
 // Простая структура переводов. Поддерживаемые языки: en, ru
 window.I18N = {
   en: {
-    name: 'Nurikor',
-    role: 'frontend developer 1st course student',
-    link_telegram: 'Telegram',
-    link_x: 'X (Twitter)',
-    link_github: 'GitHub',
-    portfolio_title: 'Portfolio',
-    portfolio_desc: 'Short list of projects. Copy blocks and replace with your projects.',
-    project1_title: 'KindHub',
-    project1_desc: 'Project created for a hackathon, an ecosystem to help people and funds.',
-    project_link_text: 'View project',
-    footer_note: 'NRCorpotation, u know who 2 trus.'
+    name: `Nurikor`,
+    role: `Developer, 1st course student`,
+    link_telegram: `Telegram`,
+    link_github: `GitHub`,
+    portfolio_title: `Portfolio`,
+    portfolio_desc: `Short list of projects.`,
+    project1_title: `KindHub`,
+    project1_desc: `Project created for a hackathon, an ecosystem to help people and funds.`,
+    project2_title: `BilimTeam`,
+    project2_desc: `BilimTeam is a presentation of BilimTrack - an educational platform of my college, created as a joint assignment in the first semester.`,
+    project_link_text: `View project`,
+    about_me_title: `About me`,
+    about_me_items: [
+      `16 years old, native of Kyrgyz Republic, he/they`,
+      `First-year student, studying programming`,
+      `Language levels: Russian: native, Kyrgyz: C1, English: A2`,
+    ],
+    footer_note: `NRCorpotation, u know who 2 trus.`
   },
   ru: {
-    name: 'Нурикор',
-    role: 'фронтенд-разработчик студент 1 курса',
-    link_telegram: 'Telegram',
-    link_x: 'X (Twitter)',
-    link_github: 'GitHub',
-    portfolio_title: 'Портфолио',
-    portfolio_desc: 'Короткий список проектов. Скопируйте блок и замените содержимое на свои проекты.',
-    project1_title: 'KindHub',
-    project1_desc: 'Проект созданный для хакатона, экосистема для помощи людям и фондам.',
-    project_link_text: 'Ссылка на проект',
-    footer_note: 'NRCorpotation, u know who 2 trus.'
+    name: `Нурикор`,
+    role: `Разработчик, студент 1 курса`,
+    link_telegram: `Telegram`,
+    link_github: `GitHub`,
+    portfolio_title: `Портфолио`,
+    portfolio_desc: `Короткий список проектов.`,
+    project1_title: `KindHub`,
+    project1_desc: `Проект, созданный для хакатона, экосистема для помощи людям и фондам.`,
+    project2_title: `BilimTeam`,
+    project2_desc: `BilimTeam представление о BilimTrack - это образовательная платформа моего колледжаб, содано как совместное задание первый семестр`,
+    project_link_text: `Ссылка на проект`,
+    about_me_title: `Обо мне`,
+    about_me_items: [
+      `16 лет, уроженец Кыргызской Республики, он/они`,
+      `Студент первого курса, изучаю программирование`,
+      `Уровень языков: Русский: родной, Кыргызский: C1, Английский: A2`,
+    ],
+    footer_note: `NRCorpotation, u know who 2 trus.`
   }
 };
