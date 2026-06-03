@@ -14,11 +14,12 @@ window.I18N = {
     project_link_text: `View project`,
     about_me_title: `About me`,
     about_me_items: [
-      `16 years old, native of Kyrgyz Republic, he/they`,
+      `16 years old, native of Kyrgyz Republic, he/him`,
       `First-year student, studying programming`,
+      `Love anthropomorphs, reverse engineering and video games`,
       `Language levels: Russian: native, Kyrgyz: C1, English: A2`,
     ],
-    footer_note: `NRCorpotation, u know who 2 trus.`
+    footer_note: `NRCorpotation, u know who 2 trus.`,
   },
   ru: {
     name: `Нурикор`,
@@ -34,10 +35,11 @@ window.I18N = {
     project_link_text: `Ссылка на проект`,
     about_me_title: `Обо мне`,
     about_me_items: [
-      `16 лет, уроженец Кыргызской Республики, он/они`,
+      `16 лет, уроженец Кыргызской Республики, он/его`,
       `Студент первого курса, изучаю программирование`,
+      `Люблю антропоморфоф, реверс-инжиниринг и видеоигры`,
       `Уровень языков: Русский: родной, Кыргызский: C1, Английский: A2`,
     ],
-    footer_note: `NRCorpotation, u know who 2 trus.`
-  }
+    footer_note: `NRCorpotation, u know who 2 trus.`,
+  },
 };
