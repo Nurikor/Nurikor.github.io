@@ -197,6 +197,7 @@ p#role {
   display: flex;
   gap: 12px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .icon-footer a {
   display: inline-flex;
