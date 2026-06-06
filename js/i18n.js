@@ -3,7 +3,7 @@ window.I18N = {
   en: {
     name: `Nurikor`,
     role: `Developer, 1st course student`,
-    link_telegram: `Blog in Telegram channel`,
+    link_telegram: `Personal Telegram Channel`,
     link_github: `GitHub`,
     portfolio_title: `Portfolio`,
     portfolio_desc: `Short list of projects.`,
@@ -24,7 +24,7 @@ window.I18N = {
   ru: {
     name: `Нурикор`,
     role: `Разработчик, студент 1 курса`,
-    link_telegram: `Блог в Telegram канале`,
+    link_telegram: `Личный ТГК`,
     link_github: `GitHub`,
     portfolio_title: `Портфолио`,
     portfolio_desc: `Короткий список проектов.`,
