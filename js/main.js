@@ -9,7 +9,6 @@
       if (!key) return;
       if (dict[key]) {
         if (Array.isArray(dict[key])) {
-          // Для массивов создаем список
           el.innerHTML = dict[key].map(item => `<li>${item}</li>`).join(``);
         } else {
           el.textContent = dict[key];
