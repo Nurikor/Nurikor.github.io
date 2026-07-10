@@ -1,8 +1,8 @@
 export const ru = {
   name: `Нурикор`,
   role: `Разработчик, студент 1 курса`,
-  link_telegram: `Телеграмм`,
   link_github: `GitHub`,
+  link_telegram: `Telegram`,
   portfolio_title: `Портфолио`,
   portfolio_desc: `Короткий список проектов.`,
   project1_title: `KindHub`,

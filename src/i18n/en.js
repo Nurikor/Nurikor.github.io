@@ -1,8 +1,8 @@
 export const en = {
   name: `Nurikor`,
   role: `Developer, 1st course student`,
-  link_telegram: `Telegram`,
   link_github: `GitHub`,
+  link_telegram: `Telegram`,
   portfolio_title: `Portfolio`,
   portfolio_desc: `Short list of projects.`,
   project1_title: `KindHub`,
