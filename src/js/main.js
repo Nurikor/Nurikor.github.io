@@ -1,19 +1,40 @@
-import { setLang } from './i18n/index.js';
+import { getInitialLang, setLanguage } from './i18n.js';
+import { renderAll } from './render.js';
 
 function updateLanguageButtons(selectedLang) {
-  const langs = document.querySelectorAll('.lang-btn');
-  langs.forEach(btn => btn.setAttribute('aria-pressed', btn.dataset.lang === selectedLang));
+  const pill = document.querySelector('.lang-pill');
+  if (pill) {
+    pill.setAttribute('data-active', selectedLang);
+  }
+
+  const buttons = document.querySelectorAll('.lang-btn');
+  buttons.forEach(btn => {
+    const isActive = btn.dataset.lang === selectedLang;
+    btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+  });
+}
+
+function handleLanguageSwitch(lang) {
+  setLanguage(lang, currentLang => {
+    updateLanguageButtons(currentLang);
+    renderAll(currentLang);
+  });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const langs = document.querySelectorAll('.lang-btn');
+  const initialLang = getInitialLang();
 
-  langs.forEach(btn => btn.addEventListener('click', () => {
-    const lang = btn.dataset.lang;
-    setLang(lang);
-    updateLanguageButtons(lang);
-  }));
+  // Attach click listener to language buttons
+  const buttons = document.querySelectorAll('.lang-btn');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.dataset.lang;
+      if (lang) {
+        handleLanguageSwitch(lang);
+      }
+    });
+  });
 
-  setLang('en');
-  updateLanguageButtons('en');
+  // Initial render and setup
+  handleLanguageSwitch(initialLang);
 });
