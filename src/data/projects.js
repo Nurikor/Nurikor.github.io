@@ -1,7 +1,3 @@
-/**
- * Projects data configuration
- * Add, remove, or edit your projects here.
- */
 export const projectsData = [
   {
     id: 'kindhub',

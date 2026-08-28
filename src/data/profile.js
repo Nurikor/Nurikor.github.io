@@ -1,12 +1,8 @@
-/**
- * Profile configuration
- * Change avatar, primary action links, and social links here.
- */
 export const profileConfig = {
   name: 'Nurikor',
   avatar: 'public/img/NFWS.png',
   avatarAlt: 'Nurikor avatar',
-  email: 'c4726069@gmail.com',
+  email: 'mail@nurikor.dev',
 
   // Primary action buttons below hero section
   primaryLinks: [
@@ -25,7 +21,7 @@ export const profileConfig = {
         en: 'Telegram Channel',
         ru: 'Telegram-канал'
       },
-      url: 'https://t.me/Nurikor_Rondaev',
+      url: 'https://t.me/NeirAir',
       icon: 'public/img/telegram.svg'
     }
   ],
@@ -59,7 +55,7 @@ export const profileConfig = {
     {
       id: 'email',
       label: 'Email',
-      url: 'mailto:c4726069@gmail.com',
+      url: 'mailto:mail@nurikor.dev',
       icon: 'public/img/mail.svg'
     }
   ]

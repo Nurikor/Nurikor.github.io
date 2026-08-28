@@ -1,7 +1,3 @@
-/**
- * About me sections configuration
- * Add new info sections, lists, timeline events, or images here.
- */
 export const aboutSectionsData = [
   {
     id: 'bio',
