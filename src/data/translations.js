@@ -1,6 +1,3 @@
-/**
- * Static UI and Meta Translations
- */
 export const uiTranslations = {
   en: {
     page_title: 'Nurikor — developer student',
