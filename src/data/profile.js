@@ -21,7 +21,7 @@ export const profileConfig = {
         en: 'Telegram',
         ru: 'Telegram'
       },
-      url: 'https://t.me/NeirAir',
+      url: 'https://t.me/nurikor_Rondaev',
       icon: 'public/img/telegram.svg'
     }
   ],
